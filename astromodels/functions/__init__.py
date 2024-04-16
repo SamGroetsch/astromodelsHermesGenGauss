@@ -69,12 +69,14 @@ from .functions_2D import (
     Latitude_galactic_diffuse,
     Power_law_on_sphere,
     SpatialTemplate_2D,
+    GeneralizedGaussianSpatialModel,
 )
 from .functions_3D import (
     Continuous_injection_diffusion,
     Continuous_injection_diffusion_ellipse,
     Continuous_injection_diffusion_legacy,
     GalPropTemplate_3D,
+    Hermes,
 )
 from .priors import (
     Cauchy,
@@ -130,10 +132,12 @@ __all__ = [
     "Latitude_galactic_diffuse",
     "Power_law_on_sphere",
     "SpatialTemplate_2D",
+    "GeneralizedGaussianSpatialModel",
     "Continuous_injection_diffusion",
     "Continuous_injection_diffusion_ellipse",
     "Continuous_injection_diffusion_legacy",
     "GalPropTemplate_3D",
+    "Hermes",
     "DMSpectra",
     "DMFitFunction",
     "Cauchy",
